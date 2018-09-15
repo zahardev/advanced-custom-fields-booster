@@ -5,16 +5,12 @@ namespace ACF_Custom_Table\Traits;
 
 /**
  * Trait Singleton
- * @package Importer_From_Maxsite
  */
 trait Singleton {
 
 	private static $instance;
 
-	/**
-	 * API constructor.
-	 */
-	private function __construct() {
+	protected function __construct() {
 	}
 
 	public static function instance() {

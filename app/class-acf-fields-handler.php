@@ -2,12 +2,15 @@
 
 namespace ACF_Custom_Table;
 
+use ACF_Custom_Table\DB\DAO;
 use ACF_Custom_Table\Interfaces\Singleton;
 use ACF_Custom_Table\Traits\Singleton as SingletonTrait;
 
 
 /**
- * Class Controller
+ * Class ACF_Fields_Handler
+ *
+ * @package ACF_Booster
  */
 class ACF_Fields_Handler implements Singleton {
 
@@ -36,7 +39,7 @@ class ACF_Fields_Handler implements Singleton {
 	private function init_dao() {
 		global $wpdb;
 
-		$this->dao = new DAO($wpdb, $wpdb->prefix . 'acf_fields', $this->get_supported_fields());
+		//$this->dao = new DAO($wpdb, $wpdb->prefix . 'acf_fields', $this->get_supported_fields());
 	}
 
 
