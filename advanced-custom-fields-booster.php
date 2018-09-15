@@ -1,9 +1,9 @@
 <?php
 /*
- Plugin Name: Adanced Custom Fields Booster
+ Plugin Name: Advanced Custom Fields Booster
  Author: Sergey Zaharchenko
  Author URI:  https://github.com/zahardoc
- Description: This plugin modifies default ACF behavior: it allows to save fields and get them using the custom table. It drastically increases the speed of searching by ACF field values on sites with a big amount of rows in the wp_postmeta table.
+ Description: This plugin boosts speed of searching by ACF fields.
  License:     GPL2
 */
 
