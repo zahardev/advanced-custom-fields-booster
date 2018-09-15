@@ -1,11 +1,11 @@
 <?php
 
-namespace ACF_Custom_Table;
+namespace ACF_Booster;
 
-use ACF_Custom_Table\DB\Data_Importer;
-use ACF_Custom_Table\DB\Table_Creator;
-use ACF_Custom_Table\Interfaces\Singleton;
-use ACF_Custom_Table\Traits\Singleton as SingletonTrait;
+use ACF_Booster\DB\Data_Importer;
+use ACF_Booster\DB\Table_Creator;
+use ACF_Booster\Interfaces\Singleton;
+use ACF_Booster\Traits\Singleton as SingletonTrait;
 
 
 /**

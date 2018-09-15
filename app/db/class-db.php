@@ -1,8 +1,8 @@
 <?php
 
-namespace ACF_Custom_Table\DB;
+namespace ACF_Booster\DB;
 
-use\ACF_Custom_Table\Interfaces\DB as DBInterface;
+use\ACF_Booster\Interfaces\DB as DBInterface;
 
 /**
  * Class DB

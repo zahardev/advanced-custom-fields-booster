@@ -1,10 +1,10 @@
 <?php
 
-namespace ACF_Custom_Table;
+namespace ACF_Booster;
 
-use ACF_Custom_Table\DB\DAO;
-use ACF_Custom_Table\Interfaces\Singleton;
-use ACF_Custom_Table\Traits\Singleton as SingletonTrait;
+use ACF_Booster\DB\DAO;
+use ACF_Booster\Interfaces\Singleton;
+use ACF_Booster\Traits\Singleton as SingletonTrait;
 
 
 /**

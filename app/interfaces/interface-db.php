@@ -1,6 +1,6 @@
 <?php
 
-namespace ACF_Custom_Table\Interfaces;
+namespace ACF_Booster\Interfaces;
 
 interface DB {
 

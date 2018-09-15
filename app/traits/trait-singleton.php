@@ -1,6 +1,6 @@
 <?php
 
-namespace ACF_Custom_Table\Traits;
+namespace ACF_Booster\Traits;
 
 
 /**

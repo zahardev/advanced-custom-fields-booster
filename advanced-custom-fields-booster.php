@@ -26,4 +26,4 @@ require_once __DIR__ . '/app/db/class-table-creator.php';
 require_once __DIR__ . '/app/db/class-dao.php';
 require_once __DIR__ . '/app/db/class-data-importer.php';
 
-\ACF_Custom_Table\App::instance()->init();
+\ACF_Booster\App::instance()->init();

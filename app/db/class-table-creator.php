@@ -1,8 +1,8 @@
 <?php
 
-namespace ACF_Custom_Table\DB;
-use ACF_Custom_Table\Traits\Singleton;
-use \ACF_Custom_Table\Interfaces\Singleton as SingletonInterace;
+namespace ACF_Booster\DB;
+use ACF_Booster\Traits\Singleton;
+use \ACF_Booster\Interfaces\Singleton as SingletonInterace;
 
 
 /**

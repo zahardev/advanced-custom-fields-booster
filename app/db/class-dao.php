@@ -1,6 +1,6 @@
 <?php
 
-namespace ACF_Custom_Table\DB;
+namespace ACF_Booster\DB;
 
 /**
  * Class DAO
