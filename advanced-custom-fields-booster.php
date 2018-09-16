@@ -20,10 +20,9 @@ require_once __DIR__ . '/app/interfaces/interface-singleton.php';
 require_once __DIR__ . '/app/interfaces/interface-db.php';
 require_once __DIR__ . '/app/traits/trait-singleton.php';
 require_once __DIR__ . '/app/class-app.php';
-require_once __DIR__ . '/app/class-acf-fields-handler.php';
 require_once __DIR__ . '/app/db/class-db.php';
+require_once __DIR__ . '/app/db/class-acf-fields-handler.php';
 require_once __DIR__ . '/app/db/class-table-creator.php';
-require_once __DIR__ . '/app/db/class-dao.php';
 require_once __DIR__ . '/app/db/class-data-importer.php';
 
 \ACF_Booster\App::instance()->init();
