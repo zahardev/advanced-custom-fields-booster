@@ -19,11 +19,6 @@ class App implements Singleton {
 	use SingletonTrait;
 
 	/**
-	 *
-	 */
-	const ASSETS_VERSION = '0.1';
-
-	/**
 	 * @var \wpdb
 	 */
 	private $db;
@@ -32,10 +27,12 @@ class App implements Singleton {
 	 * @var Table_Creator
 	 */
 	private $table_creator;
+
 	/**
 	 * @var Data_Importer
 	 */
 	private $data_importer;
+
 	/**
 	 * @var ACF_Fields_Handler
 	 */
